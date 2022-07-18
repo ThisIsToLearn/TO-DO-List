@@ -5,7 +5,7 @@ const taches = document.querySelectorAll(".tache");
 
 let newTask; 
 
-const setStorage = () => localStorage.setItem('TASKS', JSON.stringify(Array.from(newtask)))
+/*const setStorage = () => localStorage.setItem('TASKS', JSON.stringify(Array.from(newtask)))*/
 
 function del(element){
         element.parentElement.remove();
